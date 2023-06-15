@@ -1,0 +1,34 @@
+#game-container {
+    width: 400px;
+    height: 500px;
+    background-color: #70c5ce;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#bird {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    left: 50px;
+    top: 225px;
+}
+
+.pipe {
+    width: 70px;
+    height: 400px;
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+}
+
+#score {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
